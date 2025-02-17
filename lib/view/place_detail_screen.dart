@@ -190,12 +190,12 @@ class _PlaceDetailScreenState extends State<PlaceDetailScreen> {
             ],
           ),
           SizedBox(
-            width: size.width * 0.3,
+            width: size.width * 0.2,
           ),
           Container(
             padding: const EdgeInsets.symmetric(
               horizontal: 35,
-              vertical: 15,
+              vertical: 10,
             ),
             decoration: BoxDecoration(
               color: Colors.pink,
@@ -204,7 +204,7 @@ class _PlaceDetailScreenState extends State<PlaceDetailScreen> {
             child: const Text(
               "Reserve",
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 17,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
